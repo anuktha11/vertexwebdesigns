@@ -1,4 +1,8 @@
 /* General Styles */
+*{
+  padding: 0;
+  margin: 0;
+}
 body, html {
   margin: 0;
   padding: 0;
@@ -21,34 +25,33 @@ body, html {
   padding: 1rem;
   position: fixed;
   top: 0;
-  width: 95.5%;
+  width: 95.7%;
   z-index: 10;
   background: rgba(255, 255, 255, 0.8);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
-
 .navbar ul {
   list-style: none;
   display: flex;
   gap: 2rem;
-  margin: 0;
+   
+  margin-right: 70px;
   padding: 0;
 }
-
 .navbar a {
   text-decoration: none;
   color: black;
   font-weight: bold;
   font-size: 15px;
+  margin-right: 20px;
+
 }
 
 .navbar a:hover {
   text-decoration: underline;
   }
 
- 
 /* Section Styles */
 section {
   padding: 2rem;

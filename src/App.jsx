@@ -25,13 +25,14 @@ function Portfolio() {
       </header>
 
       {/* Hero Section */}
+      <div className='bg'>
       <section className="hero-section" id="home">
         <div className="hero-content">
           <h2><i>Elevate Your Business Online</i></h2>
           <p><i><b>Building attractive, responsive, and modern websites for a lasting online presence.</b></i></p>
           {/* <button className="cta-button">View Our Work</button> */}
         </div>
-      </section>
+      
       <section className="offers-section">
   <div className="slider">
     <div className="slider-wrapper">
@@ -43,7 +44,8 @@ function Portfolio() {
     </div>
   </div>
 </section>
-
+</section>
+</div>
       {/* About Section */}
     {/* About Section */}
 <section className="about-section" id="about">
@@ -128,7 +130,7 @@ function Portfolio() {
   <h3>Contact Us</h3>
   <div className="contact-content">
     <p><b><i>Have a project in mind ? <br></br> We’d love to collaborate and bring your vision to life!</i></b></p><br></br>
-    <p>Email: <a href="mailto:vertexwebsites00@gmail.com">vertexwebsites00@gmail.com</a></p>
+    <p id='mail'>Email: <a href="mailto:vertexwebsites00@gmail.com">vertexwebsites00@gmail.com</a></p>
     <p>Phone: <a href="tel:+918921451177">+91 8921451177</a></p>
   </div>
   <div className="contact-cta">
@@ -159,12 +161,12 @@ function Portfolio() {
   <div className="footer-social">
     <div className="social-links">
     <p>Follow us on:</p>
-      <a href="https://instagram.com" target="_blank" rel="noreferrer">
+      <a href="https://www.instagram.com/vertex_web_designs?igsh=MXg3amp2NHBlZWo3cA==" target="_blank" rel="noreferrer">
         <img className="icon" src="https://img.icons8.com/color/50/000000/instagram-new.png" alt="Instagram" />
       </a>
-      <a href="https://facebook.com" target="_blank" rel="noreferrer">
+      {/* <a href="https://facebook.com" target="_blank" rel="noreferrer">
         <img className="icon" src="https://img.icons8.com/color/50/000000/facebook.png" alt="Facebook" />
-      </a>
+      </a> */}
     </div>
   </div>
   <p>&copy; 2024 Vertex Web Designs. All Rights Reserved.</p>
